@@ -871,7 +871,7 @@
 ##     Alternative name to use when loading kernel.
 ##
 #kernel=""
-#kernel=kernel8.img
+
 ## kernel_address
 ##     Address to load kernel.img file at
 ##
