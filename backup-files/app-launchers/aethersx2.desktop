@@ -2,7 +2,7 @@
 Categories=GNOME;GTK;Game;Emulator;
 Comment=AetherSX2 Playstation 2 emulator
 Comment=AetherSX2 Playstation 2 emulator
-Exec=
+Exec=~/.emulator/ps2/AetherSX2-v1.0-2370.AppImage
 GenericName=
 GenericName=
 Icon=~/.emulator/ps2/ps2.png
