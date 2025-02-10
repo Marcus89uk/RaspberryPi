@@ -1,0 +1,39 @@
+# Raspberry Pi OS Bookworm
+# Rapsberry Pi arm64
+#deb https://archive.raspberrypi.com/debian/ bookworm main
+# Raspberry Pi armhf
+#deb http://raspbian.raspberrypi.com/raspbian/ bookworm main contrib non-free rpi
+
+# Current Debian Stable Bookworm Repositories
+
+# Debian 12 Bookworm https://www.debian.org/releases/bookworm/
+deb http://deb.debian.org/debian/ bookworm main contrib non-free non-free-firmware
+# deb-src http://deb.debian.org/debian/ bookworm main contrib non-free
+
+# Bookworm Security https://www.debian.org/releases/bookworm/
+deb http://deb.debian.org/debian-security bookworm-security main contrib non-free non-free-firmware
+# deb-src https://deb.debian.org/debian-security bookworm-security main contrib non-free
+
+# Bookworm Updates https://wiki.debian.org/DebianBookworm#FAQ
+# https://wiki.debian.org/StableUpdates All packages from stable-updates will be included in point releases.
+deb http://deb.debian.org/debian bookworm-updates main contrib non-free non-free-firmware
+# deb-src https://deb.debian.org/debian bookworm-updates main contrib non-free
+
+# Bookworm Proposed Updates https://wiki.debian.org/StableProposedUpdates
+# Stable-proposed-updates is an apt repository that contains the files that are being prepared for the next Debian/Stable point release.
+deb http://deb.debian.org/debian/ bookworm-proposed-updates main contrib non-free  non-free-firmware
+# deb-src https://deb.debian.org/debian/ bookworm-proposed-updates main contrib non-free
+
+# Bookworm Backports  https://backports.debian.org/
+# Backports are _not_ enabled by default.
+# Enable them by uncommenting the following line:
+deb http://deb.debian.org/debian/ bookworm-backports main contrib non-free
+# deb-src http://deb.debian.org/debian/ bookworm-backports main contrib non-free non-free-firmware
+
+# Debian Fast Track https://fasttrack.debian.net/
+# https://wiki.debian.org/FastTrack
+# Debian Fast Track is a repository that allows making backports of packages available to users of the stable distribution, 
+# if those packages cannot be maintained in testing and backported in the usual way.
+# apt install fasttrack-archive-keyring
+deb https://fasttrack.debian.net/debian-fasttrack/ bookworm-fasttrack main contrib
+deb https://fasttrack.debian.net/debian-fasttrack/ bookworm-backports-staging main contrib
