@@ -1,0 +1,18 @@
+[Desktop Entry]
+Categories=GNOME;GTK;Game;Emulator;
+Comment=AetherSX2 Playstation 2 emulator
+Comment=AetherSX2 Playstation 2 emulator
+Exec=
+GenericName=
+GenericName=
+Icon=~/.emulator/ps2/ps2.png
+Name=AetherSX2
+Name=AetherSX2
+Path=
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+Version=1.0
+
+
